@@ -1,0 +1,22 @@
+h1{text-decoration:underline;color: yellow}
+#ita{font-style:italic;font: 24;color:white}
+.fav{font-style: italic;color: gray}
+.div1{width: 1580px;padding: 10px;border: 5px;margin: 5px;background-color: red;  }
+.div1:hover{background-color: violet}
+.div2{background-color: blue;}
+.div3{background-color: green;}
+#div4{background-color: yellow;}
+.div1, .div2, .div3, .div4{border: double pink;}
+span
+{color:white;font-size: 30pt;font-family: cursive;}
+
+form{
+  padding: 25px;
+  font-weight: bold;
+  border-style: double;
+  font-weight: 800px
+}
+input[type=buttom]{
+  color: black;
+  padding: 50px
+}
