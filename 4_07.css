@@ -3,3 +3,37 @@ font: bold;color: aliceblue;
 text-align: center;}
 h1{font: bold;color: bisque;}
 h2{color: brown;}
+.navContainer{
+    border:solid lemonchiffon;
+    border-width:.2px;
+    padding:1em;
+    display:flex;
+
+}
+
+.navPill{
+    margin:1em;
+    width:22%;
+    border:solid lemonchiffon;
+    background-color: green;
+    font-size:12px;
+    padding:8px;
+    border-radius:22px;
+    border-width:.2px;
+    text-align:center;
+    text-decoration: none;
+
+}
+.navPill :hover{
+    margin:1em;
+    width:22%;
+    border:solid lemonchiffon;
+    background-color: blue;
+    font-size:12px;
+    padding:8px;
+    border-radius:22px;
+    border-width:.2px;
+    text-align:center;
+    text-decoration: none;
+
+}
