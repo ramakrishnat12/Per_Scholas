@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+form button {
+    display: none;
+}
+
+.inlineClock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inlineClock > input {
+    padding: 0.5rem;
+    width: 2.5rem;
+    font-size: 2.3rem;
+    color: black;
+    background: none;
+    border: none;
+}
+
+#clock{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    font:45px bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    box-shadow: 5px 5px 5px 0px black, 3px -9px 15px -4px rgba(0,0,0,0);
+}
+#clock .blue{
+    background-color: blue;
+}
+#clock .red{
+    background-color:red;
+}
+#controlos{
+    padding:10px;
+    width: 80px;
+    justify-content: space-around;
+    display: flex;
+}
