@@ -1,0 +1,40 @@
+
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body{height:100%
+}
+html{
+    height:100%
+}
+.back-ground{
+background-image: url(https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q=);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.circles{
+    display: grid;
+    height:100%;
+    grid-template-columns: repeat(3,auto);
+}
+
+.circle-item{
+    background-color: beige;
+    border-radius: 50%;
+}
+.circle-item:hover{
+    background-color: beige;
+    border-radius: 50%;
+    opacity: 0;
+}
